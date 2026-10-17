@@ -1,0 +1,7 @@
+title: WEI ZIQIN — Data Science Portfolio
+description: Reproducible Python analysis and careful visual communication.
+url: https://crudeboywei-cyber.github.io
+baseurl: /data-science-portfolio
+markdown: kramdown
+exclude:
+  - README.md
