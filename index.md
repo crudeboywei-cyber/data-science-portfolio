@@ -35,7 +35,7 @@ title: WEI ZIQIN · Data Science Portfolio
 
 <section class="project-intro" id="project">
   <p class="eyebrow">01 / Featured project</p>
-  <div class="project-heading"><h2>Penguin size<br>across species.</h2><p class="project-status">Analysis: completed<br>Portfolio review: in progress</p></div>
+  <div class="project-heading"><h2>Penguin size<br>across species.</h2><p class="project-status">Analysis: completed<br>Peer-feedback revision: completed</p></div>
   <p class="question"><strong>Research question</strong><br>How does body mass differ across three penguin species, and does the flipper-length relationship look the same within each species?</p>
   <p>The public Palmer Penguins dataset contains 344 observations from three Antarctic islands in 2007–2009. Both analyses below use 342 observed measurement pairs; the two rows with missing required measurements are excluded, not filled with invented values.</p>
 </section>
@@ -49,6 +49,7 @@ title: WEI ZIQIN · Data Science Portfolio
 <section class="result">
   <div class="section-heading"><p class="eyebrow">Finding 02 / Check subgroups</p><h3>The overall relationship is stronger than each subgroup's.</h3></div>
   <p>Across all 342 complete measurement pairs, Pearson's correlation is <strong>0.87</strong>. Examined separately, it is <strong>0.47 for Adelie</strong>, <strong>0.64 for Chinstrap</strong> and <strong>0.70 for Gentoo</strong>. The positive association remains, but pooling species also mixes differences between groups.</p>
+  <p><strong>Reading correlation (r):</strong> r ranges from &minus;1 to +1 and describes the direction and strength of a linear relationship. Here, positive values mean longer flippers tend to accompany greater body mass; values closer to +1 indicate a stronger positive linear association. The pooled value (0.87) combines all species, whereas the three smaller values compare penguins within the same species. Between-species differences help strengthen the pooled pattern, so 0.87 should not be used to describe every species separately. Correlation does not show that longer flippers cause greater body mass.</p>
   <figure><img src="{{ '/flipper_mass_by_species.png' | relative_url }}" alt="Flipper length versus body mass in three species-specific scatterplots on shared axes, showing positive within-species correlations of 0.47, 0.64 and 0.70."><figcaption>Figure 2. Matching axes allow direct comparisons. Colours and marker shapes identify species without relying on colour alone.</figcaption></figure>
 </section>
 
@@ -61,7 +62,7 @@ title: WEI ZIQIN · Data Science Portfolio
   <p class="eyebrow">What this project does not establish</p>
   <h2>A local sample, not a universal rule.</h2>
   <p>These are observations from three islands during 2007–2009, not a random sample of all penguins. Species and island are not independently balanced, and sex and other biological factors may help explain the remaining variation. The relationships are descriptive, not causal.</p>
-  <p><strong>Next improvement:</strong> examine sex-specific subgroups with their sample sizes and uncertainty, then evaluate whether a prediction model is warranted. I will also refine the presentation based on a classmate's feedback.</p>
+  <p><strong>Next improvement:</strong> examine sex-specific subgroups with their sample sizes and uncertainty, then evaluate whether a prediction model is warranted. A peer-feedback revision added the plain-language explanation of r beside Figure 2.</p>
 </section>
 
 <section class="sources" id="sources">
