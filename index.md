@@ -2,7 +2,6 @@
 layout: null
 title: WEI ZIQIN · Data Science Portfolio
 ---
-<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
